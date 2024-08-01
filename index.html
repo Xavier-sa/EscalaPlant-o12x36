@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verificador de Folga</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Verificador de Folga</h1>
+        <form id="form">
+            <h2>Data e hora de início da escala:</h2>
+            <label for="dia_inicio">Dia:</label>
+            <input type="text" id="dia_inicio" name="dia_inicio" required> 
+            
+            <label for="mes_inicio">Mês:</label>
+            <input type="text" id="mes_inicio" name="mes_inicio" required> 
+            
+            <label for="ano_inicio">Ano:</label>
+            <input type="text" id="ano_inicio" name="ano_inicio" required> 
+            
+            <label for="hora_inicio">Hora (HH:MM:SS):</label>
+            <input type="text" id="hora_inicio" name="hora_inicio" required>
+            
+            <h2>Data e hora para verificar:</h2>
+            <label for="dia_verificacao">Dia:</label>
+            <input type="text" id="dia_verificacao" name="dia_verificacao" required> 
+            
+            <label for="mes_verificacao">Mês:</label>
+            <input type="text" id="mes_verificacao" name="mes_verificacao" required> 
+            
+            <label for="ano_verificacao">Ano:</label>
+            <input type="text" id="ano_verificacao" name="ano_verificacao" required> 
+            
+            <label for="hora_verificacao">Hora (HH:MM:SS):</label>
+            <input type="text" id="hora_verificacao" name="hora_verificacao" required>
+            
+            <button type="button" onclick="submitForm()">Verificar Folga</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+    <script>
+        function submitForm() {
+            const form = document.getElementById('form');
+            const formData = new FormData(form);
+            fetch('/verificar', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('resultado').innerText = data.resultado;
+            });
+        }
+    </script>
+</body>
+</html>
