@@ -3,11 +3,14 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100vh;           /* Ajusta a altura da viewport para 100% */
 }
 
 .container {
     max-width: 800px;
-    margin: auto;
     background: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -31,6 +34,11 @@ input[type="text"] {
     border-radius: 4px;
 }
 
+input[type="text"]:focus {
+    outline: 2px solid #5cb85c;
+    outline-offset: 2px;
+}
+
 button {
     padding: 10px 20px;
     background-color: #5cb85c;
@@ -47,4 +55,18 @@ button:hover {
 #resultado {
     margin-top: 20px;
     font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    input[type="text"] {
+        width: calc(100% - 18px);
+    }
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
 }

@@ -1,7 +1,16 @@
 from flask import Flask, request, jsonify, render_template
-from datetime import datetime
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
+
+def verificar_folga(data_verificacao, data_inicio):
+    diferenca = data_verificacao - data_inicio
+    segundos_diferenca = diferenca.total_seconds()
+    
+    periodo_total = timedelta(hours=48)
+    folga_inicio = timedelta(hours=12)
+    
+    return (segundos_diferenca % periodo_total.total_seconds()) >= folga_inicio.total_seconds()
 
 @app.route('/')
 def index():
@@ -22,10 +31,10 @@ def verificar():
         inicio = datetime(ano_inicio, mes_inicio, dia_inicio, int(hora_inicio.split(':')[0]), int(hora_inicio.split(':')[1]), int(hora_inicio.split(':')[2]))
         verificacao = datetime(ano_verificacao, mes_verificacao, dia_verificacao, int(hora_verificacao.split(':')[0]), int(hora_verificacao.split(':')[1]), int(hora_verificacao.split(':')[2]))
         
-        if verificacao >= inicio:
-            resultado = "A data/hora de verificação é igual ou após a data/hora de início."
+        if verificar_folga(verificacao, inicio):
+            resultado = "O funcionário está de folga nesta data e hora."
         else:
-            resultado = "A data/hora de verificação é antes da data/hora de início."
+            resultado = "O funcionário não está de folga nesta data e hora."
         
         return jsonify({"resultado": resultado})
     
