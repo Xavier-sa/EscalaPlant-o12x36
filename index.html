@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Verificador de Folga</h1>
+        <h1>Veasdasd</h1>
         <form id="form">
             <h2>Data e hora de início da escala:</h2>
             <label for="dia_inicio">Dia:</label>
@@ -42,7 +42,7 @@
         function submitForm() {
             const form = document.getElementById('form');
             const formData = new FormData(form);
-            fetch('/verificar', {
+            fetch('http://127.0.0.1:5000/verificar', {
                 method: 'POST',
                 body: formData
             })
