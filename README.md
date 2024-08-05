@@ -12,9 +12,9 @@ Sou um estudante de Análise e Desenvolvimento de Sistemas e estou apaixonado po
 ### Projetos
 
 - **Verificador de Folga**  
-  Um projeto desenvolvido para calcular e verificar as escalas de plantão em um sistema 12x36. O objetivo é permitir que o usuário insira sua escala de plantão e veja quais dias estará de folga ou trabalhando.  
+  Um projeto desenvolvido para calcular e verificar as escalas de plantão em um sistema 12x36. Ele permite que o usuário insira sua escala de plantão e veja facilmente quais dias estará de folga ou trabalhando, ajudando a gerenciar melhor seu tempo e suas folgas.  
   ![Captura de Tela](imagem_2024-08-05_172128182.png)  
-  [[Link para o projeto ou repositório](https://github.com/Xavier-sa/EscalaPlant-o12x36)]
+  [Link para o projeto ou repositório](https://github.com/Xavier-sa/EscalaPlant-o12x36)
 
 ### Conecte-se Comigo
 
