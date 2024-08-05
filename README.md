@@ -2,7 +2,7 @@
 
 ## 👋 Olá! Sou Xavier
 
-Sou um estudante de **Análise e Desenvolvimento de Sistemas** e estou apaixonado por aprender e crescer na área de programação web. Estou sempre em busca de novos desafios e oportunidades para melhorar minhas habilidades.
+Sou um estudante de **Desenvolvimento de Sistemas** e estou apaixonado por aprender e crescer na área de programação web. Estou sempre em busca de novos desafios e oportunidades para melhorar minhas habilidades.
 
 ---
 
