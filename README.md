@@ -2,12 +2,16 @@
 
 ## 👋 Olá! Sou Xavier
 
-Sou um estudante de Análise e Desenvolvimento de Sistemas e estou apaixonado por aprender e crescer na área de programação web. Estou sempre em busca de novos desafios e oportunidades para melhorar minhas habilidades.
+Sou um estudante de **Análise e Desenvolvimento de Sistemas** e estou apaixonado por aprender e crescer na área de programação web. Estou sempre em busca de novos desafios e oportunidades para melhorar minhas habilidades.
+
+---
 
 ### 💡 Habilidades
 
 - **Linguagens de Programação**: Python, JavaScript, etc.
 - **Ferramentas e Tecnologias**: Git, VSCode, etc.
+
+---
 
 ### 📁 Projetos
 
@@ -19,10 +23,14 @@ Sou um estudante de Análise e Desenvolvimento de Sistemas e estou apaixonado po
   ![Captura de Tela](imagem_2024-08-05_172128182.png)  
   [Link para o projeto ou repositório](https://github.com/Xavier-sa/EscalaPlant-o12x36)
 
+---
+
 ### 🌐 Conecte-se Comigo
 
-- **LinkedIn**: [https://www.linkedin.com/in/wellington-xavier-90a004300/](https://www.linkedin.com/in/wellington-xavier-90a004300/)
-- **GitHub**: [https://github.com/Xavier-sa](https://github.com/Xavier-sa)
+- **LinkedIn**: [wellington-xavier](https://www.linkedin.com/in/wellington-xavier-90a004300/)
+- **GitHub**: [Xavier-sa](https://github.com/Xavier-sa)
+
+---
 
 ### 📚 Sobre Este Repositório
 
