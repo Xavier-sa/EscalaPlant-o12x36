@@ -1,27 +1,30 @@
-# Sobre Mim
+# 🚀 Sobre Mim
 
-## Olá! Sou Xavier
+## 👋 Olá! Sou Xavier
 
 Sou um estudante de Análise e Desenvolvimento de Sistemas e estou apaixonado por aprender e crescer na área de programação web. Estou sempre em busca de novos desafios e oportunidades para melhorar minhas habilidades.
 
-### Habilidades
+### 💡 Habilidades
 
 - **Linguagens de Programação**: Python, JavaScript, etc.
 - **Ferramentas e Tecnologias**: Git, VSCode, etc.
 
-### Projetos
+### 📁 Projetos
 
 - **Verificador de Folga**  
-  Um projeto desenvolvido para calcular e verificar as escalas de plantão em um sistema 12x36. Ele permite que o usuário insira sua escala de plantão e veja facilmente quais dias estará de folga ou trabalhando, ajudando a gerenciar melhor seu tempo e suas folgas.  
+  Um projeto desenvolvido para calcular e verificar as escalas de plantão em um sistema 12x36.  
+  **Funcionalidades:**
+  - Permite inserir a escala de plantão
+  - Exibe quais dias o usuário estará de folga ou trabalhando  
   ![Captura de Tela](imagem_2024-08-05_172128182.png)  
   [Link para o projeto ou repositório](https://github.com/Xavier-sa/EscalaPlant-o12x36)
 
-### Conecte-se Comigo
+### 🌐 Conecte-se Comigo
 
 - **LinkedIn**: [https://www.linkedin.com/in/wellington-xavier-90a004300/](https://www.linkedin.com/in/wellington-xavier-90a004300/)
 - **GitHub**: [https://github.com/Xavier-sa](https://github.com/Xavier-sa)
 
-### Sobre Este Repositório
+### 📚 Sobre Este Repositório
 
 Este repositório contém projetos e código que estou desenvolvendo. Sinta-se à vontade para explorar, contribuir ou abrir um problema (issue) se você encontrar algo que possa ser melhorado.
 
