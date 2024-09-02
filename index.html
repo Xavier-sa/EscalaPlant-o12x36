@@ -90,4 +90,18 @@
             }
             
             // Padrão 12x36
-            const workPeriod = 12 * 60 * 60 * 1000; //
+            const workPeriod = 12 * 60 * 60 * 1000; // 12 horas em milissegundos
+            const restPeriod = 36 * 60 * 60 * 1000; // 36 horas em milissegundos
+
+            const timeDifference = checkDate.getTime() - lastWorkDate.getTime();
+            
+            // Verificar se a data a verificar está dentro do período de plantão
+            if (timeDifference % (workPeriod + restPeriod) < workPeriod) {
+                document.getElementById('result').innerText = 'Você está de plantão.';
+            } else {
+                document.getElementById('result').innerText = 'Você não está de plantão.';
+            }
+        }
+    </script>
+</body>
+</html>
